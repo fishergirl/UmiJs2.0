@@ -1,13 +1,16 @@
+import React, { Component } from 'react'
 /**
  * Routes:
  *   - ./src/routes/PrivateRoute.js
  */
-function BasicLayout(props) {
-  return (
-    <div>
-      { props.children }
-    </div>
+class BasicLayout extends Component {
+  render() {
+    return (
+      <div>
+      { this.props.children }
+  </div>
   );
+  }
 }
 
 export default BasicLayout;
