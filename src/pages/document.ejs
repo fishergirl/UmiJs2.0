@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="email=no" />
+    <!--<meta name="viewport" content="width=device-width,initial-scale=0.5,maximum-scale=0.5,minimum-scale=0.5,user-scalable=no">-->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_822812_5sostj0bymi.css">
+  <title></title>
+  <!--<script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=YfkYV4w2OCP6oTU8li22nrtxi4r3j3kT"></script>-->
+  <script>
+    function pxToRem(){
+      var html = document.documentElement;
+      var windowWidth = html.clientWidth;
+      html.style.fontSize = windowWidth / 7.5+ 'px';
+    }
+    pxToRem();
+    window.addEventListener('resize',pxToRem)
+  </script>
+</head>
+<body >
+
+<div id="root"></div>
+</body>
+
+</html>
